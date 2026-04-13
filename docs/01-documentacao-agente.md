@@ -31,7 +31,6 @@ Será educativo, paciente e didático, procurando sempre entender o nível de co
 ### Tom de Comunicação
 Informal, acessível, didático, paciente, compreensivo e empático. 
 
-[Sua descrição aqui]
 
 ### Exemplos de Linguagem
 - Saudação: Olá! Como posso te ajudar com suas finanças?
@@ -48,7 +47,7 @@ Informal, acessível, didático, paciente, compreensivo e empático.
 flowchart TD
     A[Cliente] -->|Mensagem| B[Interface]
     B --> C[LLM]
-    C --> D[Base de Conhecimento]
+    C <--> D[Base de Conhecimento]
     D --> C
     C --> E[Validação]
     E --> F[Resposta]
@@ -58,10 +57,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface |[Streamlit](https://streamlit.io/)|
+| LLM | Olama (local) |
+| Base de Conhecimento | JSON/CSV |
+| Validação | Checagem de alucinações |
 
 ---
 
@@ -69,12 +68,15 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] Agente só responde com base nos dados fornecidos no contexto
+- [x] Não recomenda ou ensina estratégias de investimento específicas 
+- [x] Apenas sugere que o usuário guarde dinheiro e invista uma parte dos recursos do próprio aplicativo de banco (ex. CDB) com alta liquidez
+- [x] Foca em apenas educar de forma didática
+- [x] Admite quando não sabe de algo e redireciona para outras fontes 
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não faz recomendação de investimento
+- Não acessa dados sensíveis
+- Não substitui um profissional certificado, sendo apenas um auxílio.
