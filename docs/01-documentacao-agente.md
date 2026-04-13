@@ -45,10 +45,9 @@ Informal, acessível, didático, paciente, compreensivo e empático.
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM (Olama)]
-    C --> D[Base de Conhecimento]
-    D --> C
+    A[Cliente] -->|Mensagem| B[Interface (Streamlit)]
+    B --> C[LLM (Ollama)]
+    C <--> D[Base de Conhecimento]
     C --> E[Validação]
     E --> F[Resposta]
 ```
@@ -58,7 +57,7 @@ flowchart TD
 | Componente | Descrição |
 |------------|-----------|
 | Interface |[Streamlit](https://streamlit.io/)|
-| LLM | Olama (local) |
+| LLM | Ollama (local) |
 | Base de Conhecimento | JSON/CSV |
 | Validação | Checagem de alucinações |
 
