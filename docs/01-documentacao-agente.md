@@ -45,9 +45,10 @@ Informal, acessível, didático, paciente, compreensivo e empático.
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM (Ollama)]
-    C <--> D[Base de Conhecimento]
+A[Cliente] -->|Mensagem| B[Interface - Streamlit]
+    B --> C[LLM - Ollama]
+    C --- D[(Base de Conhecimento)]
+    D --- C
     C --> E[Validação]
     E --> F[Resposta]
 ```
