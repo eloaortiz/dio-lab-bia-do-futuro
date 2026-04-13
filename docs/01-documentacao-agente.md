@@ -5,39 +5,38 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Falta de educação e conhecimento financeiro (principalmente sobre gestão de gastos e reserva de emergência) por parte da população.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Analisará a base de dados do cliente, dando orientações, alertas ou sugestões de como agir com o caixa. Ele poderá dar breves sugestões de investimentos que estão disponíveis na prórpia plataforma do banco, mas esse não será o foco já que o agente estará voltado à parte mais básica de gestão do dinheiro. 
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Pessoas com dificuldades ou com falta de conhecimento financeiro. 
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Luma
 
 ### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
+Será educativo, paciente e didático, procurando sempre entender o nível de conhecimento do usuário sobre finanças, sem julgamentos. 
 
-[Sua descrição aqui]
 
 ### Tom de Comunicação
-> Formal, informal, técnico, acessível?
+Informal, acessível, didático, paciente, compreensivo e empático. 
 
 [Sua descrição aqui]
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: Olá! Como posso te ajudar com suas finanças?
+- Confirmação: Certo! Vou verificar e já te explico tudo certinho.
+- Erro/Limitação: Infelizmente, não tenho essa informação no momento. Você pode tentar procurar sobre em...
 
 ---
 
