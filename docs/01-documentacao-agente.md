@@ -47,7 +47,7 @@ Informal, acessível, didático, paciente, compreensivo e empático.
 flowchart TD
     A[Cliente] -->|Mensagem| B[Interface (Streamlit)]
     B --> C[LLM (Olama)]
-    C <--> D[Base de Conhecimento]
+    C --> D[Base de Conhecimento]
     D --> C
     C --> E[Validação]
     E --> F[Resposta]
