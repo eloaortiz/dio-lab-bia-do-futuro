@@ -70,7 +70,7 @@ A[Cliente] -->|Mensagem| B[Interface - Streamlit]
 
 - [x] Agente só responde com base nos dados fornecidos no contexto
 - [x] Não recomenda ou ensina estratégias de investimento específicas 
-- [x] Apenas sugere que o usuário guarde dinheiro e invista uma parte dos recursos do próprio aplicativo de banco (ex. CDB) com alta liquidez
+- [x] Apenas sugere que o usuário guarde dinheiro e invista uma parte dos recursos no próprio aplicativo de banco (ex. CDB) com alta liquidez
 - [x] Foca em apenas educar de forma didática
 - [x] Admite quando não sabe de algo e redireciona para outras fontes 
 
