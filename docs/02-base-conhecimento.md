@@ -26,8 +26,22 @@ O produto "Fundo Imobiliário" substituiu o "Fundo Multimercado" em razão da mi
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-'''python 
-'''
+```python
+
+import pandas
+import json
+
+# para arquivos CSVs
+historico = pandas.read_csv('data/historico_atendimento.csv')
+transacoes = pandas.read_csv('data/transacoes.csv')
+
+# para arquivos JSON
+with open('data/perfil_investidor.json','r', encoding ='utf-8') as f:
+  perfil = json.load(f)
+
+with open('data/produtos_financeiros.json','r', encoding ='utf-8') as f:
+  produtos = json.load(f)
+```
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
