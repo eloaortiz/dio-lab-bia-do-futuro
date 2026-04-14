@@ -26,7 +26,8 @@ O produto "Fundo Imobiliário" substituiu o "Fundo Multimercado" em razão da mi
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+'''python 
+'''
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
