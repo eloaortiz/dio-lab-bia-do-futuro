@@ -2,17 +2,14 @@
 
 ## Dados Utilizados
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
-
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Funcionalidade para a Luma |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
+| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores, atendendo de forma mais eficiente |
+| `perfil_investidor.json` | JSON | Personalizar explicações sobre dúvidas e necessidades de aprendizado do cliente |
+| `produtos_financeiros.json` | JSON | Conhecer produtos disponíveis para ser explicados ao cliente de forma adequada ao perfil|
+| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente para servir de exemplo e usar de forma didática |
 
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+
 
 ---
 
