@@ -17,7 +17,7 @@
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+O produto "Fundo Imobiliário" substituiu o "Fundo Multimercado" em razão da minha maior familiaridade com FIIs. Assim, poderei estar mais consciente das repostas da Luma, garantido maior confiança na validação das respostas. 
 
 ---
 
