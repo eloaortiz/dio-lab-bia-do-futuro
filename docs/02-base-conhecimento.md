@@ -157,7 +157,7 @@ DADOS DO CLIENTE
 - Valor de entrada do apartamento: R$ 50000.00
 
 RESUMO DE GASTOS
-- Moradia: R$ 1300
+- Moradia: R$ 1380
 - Alimentação: R$ 570
 - Trasporte: R$ 295
 - Saúde: R$ 188
