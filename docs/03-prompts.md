@@ -25,9 +25,9 @@ REGRAS
 
 **Contexto:** Pergunta sobre conceitos 
 
-**Usuário:**
+**Usuário:** "O que é CDB?"
 ```
-[Mensagem do usuário]
+**Luma:** "O CDB é um título de renda fixa onde você empresta dinheiro ao banco em troca de juros, com a segurança do Fundo Garantidor de Créditos (FGC). A taxa de juros é chamada de CDI. Quer que eu te explique mais sobre isso?"
 ```
 
 **Agente:**
