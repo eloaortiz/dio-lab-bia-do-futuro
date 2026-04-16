@@ -45,5 +45,7 @@ Após os testes, registre suas conclusões:
 - Em geral, a Luma seguiu as regras e respondeu conforme o esperado, sendo educada e didática. 
 
 **O que pode melhorar:**
-- A qualidade da inteligência artificial integrada (gemma:2b) deixou a desejar, havendo erros nas respostas. Além disso, em muitas respostas, a Luma era redundante.
+- A qualidade da inteligência artificial integrada (gemma:2b) deixou a desejar, havendo erros nas respostas.
+- Em muitas respostas, a Luma era redundante.
+- Erros de pontuação e muitas letras foram desconfiguradas. 
 
