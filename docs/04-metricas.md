@@ -42,8 +42,8 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- Em geral, a Luma seguiu as regras e respondeu conforme o esperado, dando respostas objetivas e didáticas e de maneira informal. 
+- Em geral, a Luma seguiu as regras e respondeu conforme o esperado, sendo educada e didática. 
 
 **O que pode melhorar:**
-- A qualidade da inteligência artificial integrada (gemma:2b) deixou a desejar, havendo erros nas respostas.
+- A qualidade da inteligência artificial integrada (gemma:2b) deixou a desejar, havendo erros nas respostas. Além disso, em muitas respostas, a Luma era redundante.
 
