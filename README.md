@@ -16,7 +16,7 @@ Como parte do Bootcamp da DIO de Gen IA & Dados, foi desenvolvida uma agente de 
 
 ---
 
-```
+
 
 ### 2. Base de Conhecimento
 
@@ -60,6 +60,7 @@ A[Cliente] -->|Mensagem| B[Interface - Streamlit]
     D --- C
     C --> E[Validação]
     E --> F[Resposta]
+```
 
 ### 5. Avaliação e Métricas
 
