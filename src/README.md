@@ -25,5 +25,7 @@ ollama serve
 python -m streamlit run .\src\app.py
 ```
 ## Exemplo de Execução 
+<img width="1107" height="867" alt="image" src="https://github.com/user-attachments/assets/da00acbf-a89d-4de9-8e55-77247c327a2c" />
+
 <img width="1127" height="865" alt="image" src="https://github.com/user-attachments/assets/3876e62e-69f4-4ac2-b717-f038e940a943" />
 
