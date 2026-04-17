@@ -10,15 +10,6 @@
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente para servir de exemplo e usar de forma didática |
 
 
-
----
-
-## Adaptações nos Dados
-
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
-
-O produto "Fundo Imobiliário" substituiu o "Fundo Multimercado" em razão da minha maior familiaridade com FIIs. Assim, poderei estar mais consciente das repostas da Luma, garantido maior confiança na validação das respostas. 
-
 ---
 
 ## Estratégia de Integração
@@ -42,7 +33,7 @@ historico = pd.read_csv('./data/historico_atendimento.csv')
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 > 
-Podemso injetar os dados no prompt, mas para solições mais robustas é ideal que as informações sejam carregadas dinamicamente. 
+Podemos injetar os dados no prompt, mas para solições mais robustas é ideal que as informações sejam carregadas dinamicamente. 
 
 ```text
 DADOS DO CLIENTE E PERFIL (data/perfil_investidor.json):
