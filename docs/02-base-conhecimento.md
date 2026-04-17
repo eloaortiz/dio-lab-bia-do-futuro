@@ -15,7 +15,6 @@
 ## Estratégia de Integração
 
 ### Como os dados são carregados?
-> Descreva como seu agente acessa a base de conhecimento.
 
 Poderá ser via código Pyhton ou mecanismo de copia e cola. 
 ```python
@@ -31,9 +30,8 @@ historico = pd.read_csv('./data/historico_atendimento.csv')
 ```
 
 ### Como os dados são usados no prompt?
-> Os dados vão no system prompt? São consultados dinamicamente?
-> 
-Podemos injetar os dados no prompt, mas para solições mais robustas é ideal que as informações sejam carregadas dinamicamente. 
+
+> Os dados foram injetados no prompt, mas para solições mais robustas é ideal que as informações sejam carregadas dinamicamente. 
 
 ```text
 DADOS DO CLIENTE E PERFIL (data/perfil_investidor.json):
@@ -130,8 +128,6 @@ PRODUTOS FINANCEIROS (data/produtos_financeiros.json)
 ---
 
 ## Exemplo de Contexto Montado
-
-> Mostre um exemplo de como os dados são formatados para o agente.
 
 ```
 DADOS DO CLIENTE
