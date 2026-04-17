@@ -5,14 +5,11 @@
 |---------|--------------|------------------|
 | **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
 | **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
-| **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
 
 
 ---
 
-## Exemplos de Cenários de Teste
-
-Crie testes simples para validar seu agente:
+## Cenários de Teste
 
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
