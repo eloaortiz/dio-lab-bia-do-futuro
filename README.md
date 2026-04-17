@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-Como parte do Bootcamp da DIO de Gen IA & Dados, foi desenvolvida uma agente de inteligência artificial para ser uma educadora financeira utilizandp Python 
+Como parte do Bootcamp da DIO de Gen IA & Dados, foi desenvolvida uma agente de inteligência artificial para ser uma educadora financeira utilizando Python. 
 
 ---
 
