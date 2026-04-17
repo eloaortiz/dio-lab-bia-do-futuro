@@ -16,6 +16,18 @@ Como parte do Bootcamp da DIO de Gen IA & Dados, foi desenvolvida uma agente de 
 
 ---
 
+### Arquitetura de funcionamento
+
+```mermaid
+flowchart TD
+A[Cliente] -->|Mensagem| B[Interface - Streamlit]
+    B --> C[LLM - Ollama]
+    C --- D[(Base de Conhecimento)]
+    D --- C
+    C --> E[Validação]
+    E --> F[Resposta]
+```
+
 ### 2. Base de Conhecimento
 
 **Dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar a agente:
