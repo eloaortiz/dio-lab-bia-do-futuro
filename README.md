@@ -1,13 +1,8 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 🤖 Luma: a Educadora Financeira
 
-## Contexto
+## Sobre o projeto
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
-
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
-- **Cocriar soluções** financeiras de forma consultiva
-- **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
+Como parte do Bootcamp da DIO de Gen IA & Dados, foi desenvolvida uma agente de inteligência artificial com viés de educadora financeira.
 
 > [!TIP]
 > Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
